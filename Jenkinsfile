@@ -14,5 +14,11 @@ pipeline {
       }
     }
 
+    stage('3 Bees') {
+      steps {
+        echo '"3 bees"'
+      }
+    }
+
   }
 }
